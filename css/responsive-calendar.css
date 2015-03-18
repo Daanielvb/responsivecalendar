@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Cafeta';
+  src: url('../fonts/CAFETA_.TTF') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'HelveticaLight';
+  src: url('../fonts/HELVETI5.TTF') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans.woff') format('woff'); 
+}
+
+
+body{
+  font-family:'OpenSans', Arial, Helvetica, Sans-serif;
+   color:#47601F;
+}
+.badge{
+  background-color:green;
+}
+.btn.btn-primary.green{
+  background-color:#AECE4D;
+  border:1px solid #AECE4D;
+}
+
+.responsive-calendar .controls {
+  text-align: center;
+}
+.responsive-calendar .controls a {
+  cursor: pointer;
+}
+.responsive-calendar .controls h4 {
+  display: inline;
+}
+.responsive-calendar .day-headers,
+.responsive-calendar .days {
+  font-size: 0;
+}
+.responsive-calendar .day {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  width: 14.285714285714286%;
+  text-align: center;
+}
+.responsive-calendar .day a {
+  background-color:#F4F2B4;
+  color: #47601F;
+  display: block;
+  cursor: pointer;
+  padding: 20% 0 20% 0;
+}
+.responsive-calendar .day a:hover {
+  background-color: #E0E896;
+  text-decoration: none;
+}
+.responsive-calendar .day.header {
+  border-bottom: 1px gray solid;
+}
+.responsive-calendar .day.active a {
+  background-color: #E0E896;
+
+}
+.responsive-calendar .day.active a:hover {
+  background-color: #CDE250;
+}
+.responsive-calendar .day.active .not-current {
+  background-color: #8fcaef;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current:hover {
+  background-color: #bcdff5;
+}
+.responsive-calendar .day.not-current a {
+  color:#AECE4D;
+}
+.responsive-calendar .day .badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 1;
+}
